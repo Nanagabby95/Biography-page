@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 ,p , h2{
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+.container{
+ background-image: linear-gradient(to top,#3b0ae9 0%, #0a0a0a 50%);
+
+ 
+}
+
+.container h1{
+    font-size: 2rem;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, blue, black, blue);
+    width: 20%;
+    border-radius: 10px;
+    border-color: (#740874, 8, 116);
+    width:23%;
+    border-style: double;
+    border-width: 20%;
+}
+
+
+
+h1,h2 {
+    margin-left: 40%;
+    padding: 0px 10px 10px 10px ;
+}
+
+
+
+th{
+    background-color: #ff8177;
+    background-image: linear-gradient(to right,#0a0a0a 0%, hsl(229, 84%, 33%) 100%);
+    padding: 10px;
+    
+}
+
+
+
+
+table{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.image{
+    margin-left: 40%;
+    padding-top: 2%;
+    border-radius: 4px;
+    
+
+}
+
+.image-1{
+    border-radius: 50%;
+}
+
+.awards-section{
+    background-color: #0a0000;
+    
+    padding-top: 10px;
+}
+
+
+.awards-pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 20px;
+}
+
+
+.awards{
+    background-image: linear-gradient(to right,#ff0b44 10%, rgba(74, 11, 247, 0.87) 70%);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left : 620px;
+
+}
+
+
+
+.awards:after{
+    content: '';
+    left: 0;
+    width: 0;
+    transition: all 0.35s;
+
+}
+
+.awards a{
+    text-decoration: none;
+}
+
+
+.awards:hover{
+    color: #fff;
+}
+
+.awards:hover:after{
+width: 100%;
+}
+
+
+
+.awards-pictures{
+    margin: 10px;
+    height: 30vh;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: double;
+    border-width: 30px;
+    border-color:#e74c70;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
+.awards-pictures:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+.last-section{
+    color: #e74c70;
+    background-color: #110202;
+    width: 100%;
+
+}
+
+iframe{
+    padding: 60px;
+     margin: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    
+}
